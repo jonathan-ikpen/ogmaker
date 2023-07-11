@@ -1,6 +1,6 @@
-<a  href="https://ogmaker.vercel.app">
+<a  align="center" href="https://ogmaker.vercel.app">
 
-<img  alt="OGMaker is an og image creator"  src="/app/assets/logo.png">
+<img  align="center" alt="OGMaker is an og image creator"  src="/app/assets/logo.png">
 
 <h1  align="center">OGMaker</h1>
 
@@ -68,13 +68,13 @@ Novel is built on the following stack:
 
 Here's how you can contribute:
 
-- [Open an issue](https://github.com/steven-tey/novel/issues) if you believe you've encountered a bug.
+- [Open an issue](https://github.com/jonathan-ikpen/ogmaker/issues) if you believe you've encountered a bug.
 
-- Make a [pull request](https://github.com/steven-tey/novel/pull) to add new features/make quality-of-life improvements/fix bugs.
+- Make a [pull request](https://github.com/jonathan-ikpen/ogmaker/pull) to add new features/make quality-of-life improvements/fix bugs.
 
-<a  href="https://github.com/jonathan-ikpen/oggen/graphs/contributors">
+<a  href="https://github.com/jonathan-ikpen/ogmaker/graphs/contributors">
 
-<imgf  src="https://contrib.rocks/image?repo=jonathan-ikpen/oggen"  />
+<imgf  src="https://contrib.rocks/image?repo=jonathan-ikpen/ogmaker"  />
 
 </a>
 
@@ -84,4 +84,4 @@ Here's how you can contribute:
 
 ## License
 
-Licensed under the [MIT license](https://github.com/steven-tey/novel/blob/main/LICENSE.md).
+Licensed under the [MIT license](https://github.com/jonathan-ikpen/ogmaker/blob/main/LICENSE).
