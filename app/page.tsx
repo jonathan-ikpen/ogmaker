@@ -28,7 +28,7 @@ const HomePage = () => {
       </p>
       <div className="flex gap-4 px-4 max-w-lg md:max-w-4xl">
         <Button
-          to="/create"
+          to="https://github.com/jonathan-ikpen/ogmaker"
           classes="bg-white rounded text-secondary flex gap-2 "
         >
           <span>
