@@ -1,34 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<a  href="https://ogmaker.vercel.app">
 
-## Getting Started
+<img  alt="OGMaker is an og image creator"  src="/app/assets/logo.png">
 
-First, run the development server:
+<h1  align="center">OGMaker</h1>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+</a>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p  align="center">
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+An open-source og image maker for your web projects.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+</p>
 
-## Learn More
+<p  align="center">
 
-To learn more about Next.js, take a look at the following resources:
+<a  href="https://twitter.com/codeamant">
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img  src="https://img.shields.io/twitter/follow/codeamant?style=flat&label=%40codeamant&logo=twitter&color=0bf&logoColor=fff"  alt="Twitter"  />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+</a>
 
-## Deploy on Vercel
+<a  href="https://github.com/steven-tey/novel/blob/main/LICENSE">
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img  src="https://img.shields.io/github/license/steven-tey/novel?label=license&logo=github&color=f80&logoColor=fff"  alt="License"  />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+</a>
+
+</p>
+
+<p  align="center">
+
+<a  href="#introduction"><strong>Introduction</strong></a> ·
+
+<a  href="#tech-stack"><strong>Tech Stack</strong></a> ·
+
+<a  href="#contributing"><strong>Contributing</strong></a> ·
+
+<a  href="#license"><strong>License</strong></a>
+
+</p>
+
+<br/>
+
+## Introduction
+
+[OGMaker](https://ogmaker.vercel.app/) is a static open graph image maker to create quick og images for your web projects.
+
+<br  />
+
+## Tech Stack
+
+Novel is built on the following stack:
+
+- [Next.js](https://nextjs.org/) – framework
+
+- [OpenAI](https://openai.com/) - AI completions
+
+- [Vercel AI SDK](https://sdk.vercel.ai/docs) – AI library
+
+- [Vercel](https://vercel.com) – deployments
+
+- [TailwindCSS](https://tailwindcss.com/) – styles
+
+- [Cal Sans](https://github.com/calcom/font) – font
+
+## Contributing
+
+Here's how you can contribute:
+
+- [Open an issue](https://github.com/steven-tey/novel/issues) if you believe you've encountered a bug.
+
+- Make a [pull request](https://github.com/steven-tey/novel/pull) to add new features/make quality-of-life improvements/fix bugs.
+
+<a  href="https://github.com/jonathan-ikpen/oggen/graphs/contributors">
+
+<imgf  src="https://contrib.rocks/image?repo=jonathan-ikpen/oggen"  />
+
+</a>
+
+## Author
+
+- Jonathan Ikpen ([@codeamant](https://twitter.com/codeamant))
+
+## License
+
+Licensed under the [MIT license](https://github.com/steven-tey/novel/blob/main/LICENSE.md).
