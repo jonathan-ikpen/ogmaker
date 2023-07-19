@@ -1,17 +1,14 @@
 import React from "react";
 
-interface StatusMode {
-  status: "production" | "development";
-}
-
-const CreatePage = ({ status = "development" }: StatusMode) => {
+const CreatePage = () => {
+  const development = true;
   return (
     <div className="flex flex-col justify-center items-center h-96 w-full p-4 gap-4 ">
       <div className="flex flex-col h-1/3 w-2/3 gap-4 bg-white border rounded justify-center items-center">
         <h1 className="font-bold text-secondary text-3xl">Hola! 👋</h1>
         <h1 className="text-bold text-gray-400 text-sm">We're still cooking</h1>
       </div>
-      {status === "production" && (
+      {!development && (
         <div className="w-full h-full flex-col md:flex-row gap-10 flex justify-between items-center">
           <Editor />
           <Preview />
