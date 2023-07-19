@@ -1,11 +1,13 @@
-import Button from "./components/Button";
+import React from "react";
+import Button from "../components/Button";
+import Link from "next/link";
 
 const HomePage = () => {
   return (
     <div className="mt-36 flex flex-col justify-center items-center">
       <h1 className="p-1 w-full md:max-w-5xl text-4xl font-bold tracking-normal text-secondary text-center md:text-7xl">
         Make
-        <span className="text-primary"> OG Images </span>
+        <span className="text-primary"> Text Images </span>
         in Minutes
         <span>
           <svg
@@ -29,7 +31,7 @@ const HomePage = () => {
       <div className="flex gap-4 px-4 max-w-lg md:max-w-4xl">
         <Button
           to="https://github.com/jonathan-ikpen/ogmaker"
-          classes="bg-white rounded text-secondary flex gap-2 "
+          classes="hidden bg-white rounded text-secondary flex gap-2 "
         >
           <span>
             <svg
@@ -41,9 +43,19 @@ const HomePage = () => {
           </span>
           <span>Contribute</span>
         </Button>
-        <Button to="/create" classes="hidden bg-secondary rounded text-white">
+        <Button to="/create" classes="bg-white rounded ftext-white">
           Start Creating
         </Button>
+        <div className="hidden">
+          <iframe
+            style={{ borderRadius: "12px" }}
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1EIWAwdcQmhVWB?utm_source=generator&theme=0"
+            width="100%"
+            height="100"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </div>
       </div>
     </div>
   );

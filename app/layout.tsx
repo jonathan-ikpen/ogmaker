@@ -1,7 +1,8 @@
 import "./globals.css";
 import { Inter, Montserrat } from "next/font/google";
 import { Raleway } from "next/font/google";
-import Header from "./components/Header";
+import Header from "../components/Header";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const montserrat = Montserrat({
@@ -34,6 +35,7 @@ export default function RootLayout({
         <main className="container px-2 flex justify-center items-center m-auto">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );

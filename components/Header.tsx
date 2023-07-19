@@ -1,6 +1,13 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
+  const pathname = usePathname();
+
+  // check if the current route is the create page;
+  const isCreatePage = pathname === "/create";
+
   return (
     <header className="w-full flex items-center justify-center">
       <div className="container flex justify-between items-center px-2">
@@ -33,8 +40,8 @@ const Header = () => {
                 y2="84.8528"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#E3E2E2" />
-                <stop offset="1" stop-color="#3D3D3D" />
+                <stop stopColor="#E3E2E2" />
+                <stop offset="1" stopColor="#3D3D3D" />
               </linearGradient>
             </defs>
           </svg>
@@ -44,9 +51,14 @@ const Header = () => {
           </span>
         </Link>
         <div className="w-24">
-          <button className="p-2 px-6 bg-secondary text-white rounded font-medium text-sm">
+          <Link
+            href={"/create"}
+            className={` ${
+              isCreatePage && "hidden"
+            } p-2 px-6 bg-secondary text-white rounded font-medium text-sm`}
+          >
             Create
-          </button>
+          </Link>
         </div>
       </div>
     </header>
