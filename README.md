@@ -1,6 +1,6 @@
 <a  align="center" href="https://ogmaker.vercel.app">
 
-<img  align="center" alt="OGMaker is an og image creator"  src="/app/assets/logo.png">
+<img  align="center" alt="OGMaker is an og image creator"  src="/assets/logo.png">
 
 <h1  align="center">OGMaker</h1>
 
